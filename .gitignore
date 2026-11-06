@@ -1,0 +1,21 @@
+# Virtual Environment & Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment variables & API keys (Never push secrets!)
+.env
+*.env
+
+# Large datasets
+sample_nyc_311.csv
+*.csv
+
+# OS specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
